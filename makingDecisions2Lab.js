@@ -49,10 +49,7 @@ let evensArr = []
 //Code Here
 for(let i = 0; i < nums.length; i++){
   if(nums[i] % 2 === 0){
-    let even = nums[i]
-    evensArr.push(even)
-  }else{
-    console.log(nums[i])
+    evensArr.push(nums[i])
   }
 }
 console.log(evensArr)
